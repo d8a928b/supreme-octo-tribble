@@ -1,0 +1,104 @@
+App Review Guidelines – Terms of Service
+Before submitting your app for review, please ensure it meets all criteria outlined in this document. Failure to comply may result in your app being denied or removed from the TikTok Developer Platform.
+
+1. App Details Requirements
+1.1 App Name and Icon
+Must have a custom app name that will appear on the app authorization page.
+
+Prohibited: References to social media companies (e.g., “TikTok App”).
+
+The name must reflect the app or website brand, not a functionality description (e.g., avoid names like “Video Content Analytics Uploader”).
+
+Must comply with TikTok Brand and Use Guidelines.
+
+The app icon must be:
+
+Clear and of high quality
+
+Free from sensitive or inappropriate content
+
+Not visually similar to another well-known brand
+
+Consistent with the app’s name or brand identity
+
+1.2 Description
+Provide a clear description of your app/website and how it works.
+
+Examples:
+
+“A website that sells pet supplies.”
+
+“Manage all your social media content in one place.”
+
+App’s purpose must align with TikTok’s Developer Guidelines.
+
+The app must not:
+
+Be for private/personal use
+
+Contain adult content
+
+Be under development or in testing
+
+1.3 Website URL
+Must link to an official and fully developed public-facing website.
+
+Prohibited: Login-only pages or landing pages
+
+The site must visibly display both Privacy Policy and Terms of Service without requiring navigation through menus.
+
+The provided links must be active and accessible.
+
+1.4 Privacy Policy and Terms of Service
+You must host a valid Privacy Policy and Terms of Service on your official website.
+
+These documents must be clearly visible and functional.
+
+2. Platform-Specific Requirements
+iOS
+App must be published in the Apple App Store.
+
+You must configure a valid iOS Bundle ID in the app configuration.
+
+Android
+App must be published in the Google Play Store.
+
+Must configure the correct Android app signature and package name.
+
+Web Apps
+You must provide a valid redirect URI in the app configuration.
+
+3. Scopes and Permissions
+Request only the permissions and scopes needed for your app functionality.
+
+Scopes should correspond to the TikTok for Developers products used in your app.
+
+4. App Review Submission Requirements
+To complete app submission, the following must be provided:
+
+4.1 Feature Explanation
+First-time submission: Detail how each TikTok Developer product (e.g., Login Kit, Share Kit) is integrated and enhances user experience.
+
+Follow-up revisions: Update the explanation to reflect all new and existing integrations.
+
+4.2 Demo Video(s)
+Upload at least one end-to-end integration demo video.
+
+Max of 5 videos, each up to 50MB.
+
+Must show:
+
+How TikTok products are integrated in your app/site
+
+User interface and interactions
+
+Actual platform (mobile/web) with matching URL or app
+
+Sandbox environment usage (if app is not yet approved)
+
+All selected products and scopes must be demonstrated in the videos. Remove unused ones prior to submission to avoid delays.
+
+5. Review Process
+TikTok for Developers will begin the app review once your submission is complete.
+
+Ensure all materials are accurate and up-to-date to avoid rejection or re-submission.
