@@ -1,0 +1,90 @@
+Privacy Policy
+Effective Date: [Insert Date]
+
+We are committed to protecting your privacy. This Privacy Policy describes how we collect, use, disclose, and safeguard your information when you use our website or mobile application ("App") and interact with TikTok for Developers tools (such as Login Kit, Share Kit, Content Posting API, etc.).
+
+By using our App, you agree to the collection and use of information in accordance with this Privacy Policy.
+
+1. Information We Collect
+We may collect and process the following types of information:
+
+a. Information You Provide
+Name
+
+Email address
+
+Account information
+
+Content submitted through the app
+
+b. Information from TikTok
+When you connect your TikTok account through TikTok for Developers, we may receive:
+
+TikTok user ID
+
+Display name and profile photo
+
+Public videos or content (depending on scope permissions)
+
+Authentication tokens
+
+c. Automatically Collected Data
+Device information (type, OS, browser)
+
+IP address
+
+Usage data (pages viewed, interactions, timestamps)
+
+2. How We Use Your Information
+We use the collected data to:
+
+Authenticate users via TikTok Login
+
+Enable app features such as sharing or posting content to TikTok
+
+Improve app performance and user experience
+
+Provide customer support
+
+Comply with legal obligations
+
+3. Sharing Your Information
+We may share your information:
+
+With TikTok, in accordance with their API terms
+
+With service providers under strict confidentiality agreements (e.g., cloud services, analytics)
+
+When required by law or to protect legal rights
+
+With your consent or at your direction
+
+We do not sell your personal data.
+
+4. Data Retention
+We retain your personal information only as long as necessary for the purposes stated in this policy or as required by law. You may request deletion of your data at any time by contacting us.
+
+5. Your Rights
+Depending on your jurisdiction, you may have the right to:
+
+Access, correct, or delete your personal information
+
+Object to or restrict our processing
+
+Withdraw your consent at any time
+
+File a complaint with a data protection authority
+
+To exercise any of these rights, please contact us at [insert contact email].
+
+6. Data Security
+We implement appropriate technical and organizational measures to protect your information. However, no method of transmission over the Internet is 100% secure.
+
+7. Third-Party Links and Services
+Our App may contain links to third-party services, including TikTok. This Privacy Policy does not apply to those third parties. Please review their respective policies.
+
+8. Children’s Privacy
+Our App is not intended for individuals under the age of 13 (or 16 in certain jurisdictions). We do not knowingly collect personal data from children.
+
+9. Changes to This Privacy Policy
+We may update this policy from time to time. We will notify you of significant changes by posting the new policy on our website or through the App.
