@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TikTok OAuth Callback</title>
+  </head>
+  <body>
+    <script>
+      /*
+        TikTok will redirect here with:
+        https://your-domain/auth/callback/?code=…&state=…
+        on error:        ?error=…
+        (no fragments or extra params allowed per TikTok policy)
+        — Reference: TikTok Login Kit web guide :contentReference[oaicite:3]{index=3}
+      */
+
+      (async function () {
+        const params = new URLSearchParams(window.location.search);
+        const code   = params.get('code');
+        const state  = params.get('state');
+        const error  = params.get('error');
+
+        if (error) {
+          document.body.textContent = 'TikTok login denied: ' + error;
+          return;
+        }
+        if (!code) {
+          document.body.textContent = 'No OAuth code found.';
+          return;
+        }
+
+        document.body.textContent = 'Received code … now sending to your backend …';
+
+        // Replace with your own backend endpoint
+        await fetch('https://your-server.example/tiktok/callback', {
+          method: 'POST',
+          headers: { 'Content-Type':'application/json' },
+          body: JSON.stringify({ code, state })
+        }).catch(console.error);
+
+        // You may redirect or show "logged in" UI:
+        window.location = '/welcome.html?logged_in=1';
+      })();
+    </script>
+  </body>
+</html>
